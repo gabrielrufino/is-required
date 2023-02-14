@@ -1,6 +1,6 @@
 {
   "name": "@gabrielrufino/is-required",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Throws an error when an expected parameter is not defined",
   "main": "src/index.js",
   "type": "module",
