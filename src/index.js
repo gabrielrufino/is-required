@@ -1,4 +1,4 @@
-import { IsRequiredError } from './IsRequiredError'
+import { IsRequiredError } from './IsRequiredError.js'
 
 /**
  * Throws an error when an expected parameter is not defined.
