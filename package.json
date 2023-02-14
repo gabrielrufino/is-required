@@ -1,10 +1,13 @@
 {
   "name": "@gabrielrufino/is-required",
   "version": "1.0.0",
-  "description": "",
+  "description": "Throws an error when an expected parameter is not defined",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "npx standard .",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/gabrielrufino/is-required/issues"
   },
-  "homepage": "https://github.com/gabrielrufino/is-required#readme"
+  "homepage": "https://github.com/gabrielrufino/is-required#readme",
+  "devDependencies": {
+    "jest": "^29.4.2",
+    "standard": "^17.0.0"
+  }
 }
