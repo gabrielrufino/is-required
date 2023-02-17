@@ -1,7 +1,6 @@
-import { describe, it, expect } from '@jest/globals'
+const { describe, it, expect } = require('@jest/globals')
 
-import { isRequired } from '../src'
-import { IsRequiredError } from '../src/IsRequiredError'
+const { isRequired, IsRequiredError } = require('../src/index.cjs')
 
 describe('isRequired', () => {
   describe('Argumennts', () => {

@@ -1,4 +1,4 @@
-export class IsRequiredError extends Error {
+exports.IsRequiredError = class IsRequiredError extends Error {
   constructor ({
     param
   }) {
