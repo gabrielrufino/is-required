@@ -27,6 +27,7 @@
   "homepage": "https://github.com/gabrielrufino/is-required#readme",
   "devDependencies": {
     "jest": "^29.4.3",
+    "rimraf": "^4.1.2",
     "standard": "^17.0.0"
   }
 }
