@@ -14,7 +14,8 @@
     "lint": "npx standard .",
     "lint:fix": "npm run lint -- --fix",
     "reinstall": "npx rimraf node_modules && npm ci",
-    "test": "jest"
+    "test": "jest",
+    "test:cov": "npm run test -- --coverage"
   },
   "repository": {
     "type": "git",
