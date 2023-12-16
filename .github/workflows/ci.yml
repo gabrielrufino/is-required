@@ -13,8 +13,6 @@ jobs:
       - uses: gabrielrufino/node-ci@develop
   sonarqube:
     runs-on: ubuntu-latest
-    needs:
-      - tests
     continue-on-error: true
     steps:
       - uses: actions/checkout@v4
