@@ -1,6 +1,6 @@
 {
   "name": "@gabrielrufino/is-required",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "Throws an error when an expected parameter is not defined",
   "main": "src/index.js",
   "type": "commonjs",
@@ -29,9 +29,9 @@
   "homepage": "https://github.com/gabrielrufino/is-required#readme",
   "devDependencies": {
     "@gabrielrufino/eslint-config": "^1.6.0",
-    "eslint": "^8.56.0",
-    "eslint-plugin-jest": "^27.6.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-jest": "^27.9.0",
     "jest": "^29.7.0",
-    "rimraf": "^4.4.1"
+    "rimraf": "^5.0.5"
   }
 }
