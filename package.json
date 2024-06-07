@@ -1,6 +1,6 @@
 {
   "name": "@gabrielrufino/is-required",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "Throws an error when an expected parameter is not defined",
   "main": "src/index.js",
   "type": "commonjs",
@@ -13,7 +13,6 @@
   "scripts": {
     "lint": "npx eslint .",
     "lint:fix": "npm run lint -- --fix",
-    "reinstall": "npx rimraf node_modules && npm ci",
     "test": "jest",
     "test:cov": "npm run test -- --coverage"
   },
@@ -31,7 +30,6 @@
     "@gabrielrufino/eslint-config": "^1.6.0",
     "eslint": "^8.57.0",
     "eslint-plugin-jest": "^27.9.0",
-    "jest": "^29.7.0",
-    "rimraf": "^5.0.5"
+    "jest": "^29.7.0"
   }
 }
